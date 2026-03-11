@@ -7,6 +7,7 @@ L’objectif est de visualiser concrètement le fonctionnement du réseau, depui
   
 **Notre atelier**  
 
+
 ![Screenshot Actions](Architecture_cible_Reseau.png)  
 
 -------------------------------------------------------------------------------------------------------
