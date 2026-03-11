@@ -55,12 +55,17 @@ Vous avez vu dans cette séquence comment créer des secrets GiHUB afin de mettr
 Vous pouvez observez les différentes couches OSI sur votre site **{site}.pythonanywhere.com/osi**  
   
 **Exercice 1 : Définissez les termes suivants (Répondre directement dans GitHub)**    
-* Un protocole,  
-* Une entité protocolaire,
-* Un service,  
-* Une primitive de service,  
-* Une Service Data Unit (SDU) par rapport à une PDU  
-* Un point d'accès à un service SAP (Service Access Point)  
+* Un protocole : un ensemble des régles et des convention qui définit comment les données sont formatés, transmises et reçues sur un réseau
+  
+* Une entité protocolaire: c'est l'acteur (élément logiciel ou matériel) situé dans une couche spécifique à un appareil  qui applique  les règles d'un seul protocole à la fois pour discuter avec son "homologue" sur une autre machine.
+* 
+* Un service : l'ensembles des fonctions et capacité qu'une entité (couche) offre à la couche juste au dessus d'elle.
+* 
+* Une primitive de service : ce sont les commandes spécifiques pour demander le servie de l'entité supperieure à l'entité inférieure (ex: LISTEN, CONNECT, SEND, RECEIVE).
+*
+*   Une Service Data Unit (SDU) par rapport à une PDU : SDU c'est la donné brut (sacré) à transporter dans le réseau alors que PDU c'est le paquet complet cvd sdu avec les entete
+* 
+* Un point d'accès à un service SAP (Service Access Point) : est la porte d'entrée d'un service qui permet à deux couches voisines de se passer la main correctement  
 
 ---------------------------------------------------
 🗺️ Séquence 5 : Retour sur le protocole DHCP
